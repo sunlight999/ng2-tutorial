@@ -40,7 +40,7 @@ export class HeroesComponent implements OnInit {
   this.addingHero = false;
   if (savedHero) { this.getHeroes(); }
   }
-  delete(hero: Hero, event: any) {
+  deleteHero(hero: Hero, event: any) {
   event.stopPropagation();
   this.heroService
       .delete(hero)
