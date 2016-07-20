@@ -10,7 +10,6 @@ import { OnInit } from '@angular/core';
 @Component({
   selector: 'my-heroes',
 template:`
-  <h1>{{title}}</h1>
   <h2>My Heroes</h2>
   <ul class="heroes">
   <li [class.selected]="hero === selectedHero"

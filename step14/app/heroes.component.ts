@@ -10,13 +10,13 @@ import { OnInit } from '@angular/core';
 @Component({
   selector: 'my-heroes',
 template:`
-  <h1>{{title}}</h1>
-  <h2>My Heroes</h2>
+   <h2>My Heroes</h2>
   <ul class="heroes">
   <li [class.selected]="hero === selectedHero"
  *ngFor="let hero of heroes" (click)="onSelect(hero)">
   <span class="badge">{{hero.id}}</span> {{hero.name}}
 </li>
+</ul>
 <my-hero-detail [hero]="selectedHero"></my-hero-detail>
   `,
   directives: [HeroDetailComponent],

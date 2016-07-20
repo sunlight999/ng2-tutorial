@@ -7,4 +7,4 @@
             | |            
             |_|    
             
-# ng-2-tutorial: add select
+# ng-2-tutorial: add select but not working
