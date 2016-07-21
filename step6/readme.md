@@ -8,4 +8,4 @@
             | |            
             |_|       
 
-# ng-2-tutorial: added ngFor html tag
+# ng-2-tutorial: added ngFor html attribute
