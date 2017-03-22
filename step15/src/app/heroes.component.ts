@@ -36,5 +36,9 @@ constructor(private router: Router, private heroService: HeroService) { }
     this.selectedHero = hero;
   }
   
+   gotoDetail(): void {
+    this.router.navigate(['/detail', this.selectedHero.id]);
+  }
+  
   
 }
