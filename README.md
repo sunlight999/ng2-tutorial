@@ -29,5 +29,6 @@ step 13: router
 step 14: dashboard view  
 step 15: parametrized  
 step 16: http backend mockup  
+step 17:  http search service added and heroes module
 
 Happy learning!
