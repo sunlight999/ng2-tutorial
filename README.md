@@ -30,5 +30,8 @@ step 14: dashboard view
 step 15: parametrized  
 step 16: http backend mockup  
 step 17:  http search service added and heroes module
+step 18:  add webpack
+step 19: aot with webpack
+step 20: universal with webpack
 
 Happy learning!

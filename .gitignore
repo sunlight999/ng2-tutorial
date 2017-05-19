@@ -1,8 +1,12 @@
 */node_modules/
 */build/
+*/dist/
 */typings/
+*/src/dist/
 */src/app/*.js*
 */src/app/*/*.js*
 */src/main.js*
+*/src/polyfills.js*
+*/src/vendor.js*
 step0/*.js
 */npm-debug.log
