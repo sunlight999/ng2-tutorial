@@ -12,4 +12,12 @@
 >
 > ```
 
-# ng-2-tutorial : angular aot with  webpack 
+# ng-2-tutorial : angular aot with  webpack
+## To use
+
+### Node
+
+```sh
+npm run build:aot
+npm run serve:aot
+``` 
