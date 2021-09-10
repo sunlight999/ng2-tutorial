@@ -1,13 +1,13 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "target": "es5",
+    "outDir": "../out-tsc/e2e",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "lib": [ "es2015", "dom" ],
-    "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "target": "es2018",
+    "types": [
+      "jasmine",
+      "node"
+    ]
   }
 }

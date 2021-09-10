@@ -8,4 +8,4 @@
 >                |_|          
 > ```
 
-# ng-2-tutorial: angular project initialization
+# ng-tutorial: angular project initialization
